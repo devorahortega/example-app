@@ -3,11 +3,11 @@ Rails.application.routes.draw do
 end
 
 Rails.application.routes.draw do
-  get "/greetings", controller: "example_pages", action: "greetings_method"
+  get "/greetings_path", controller: "example_pages", action: "greetings_method"
 end
 
 Rails.application.routes.draw do
-  get "/why_are_you_here", controller: "example_pages", action: "why_are_you_here_method"
+  get "/why_are_you_here_path", controller: "example_pages", action: "why_are_you_here_method"
 end
 
 Rails.application.routes.draw do
