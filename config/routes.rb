@@ -9,3 +9,7 @@ end
 Rails.application.routes.draw do
   get "/why_are_you_here", controller: "example_pages", action: "why_are_you_here_method"
 end
+
+Rails.application.routes.draw do
+  get "/try", controller: "example_pages", action: "try"
+end
